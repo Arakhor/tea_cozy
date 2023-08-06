@@ -1,0 +1,131 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    text-align: center;
+}
+
+html {
+    min-width: 450px;
+}
+
+body {
+    font-size: 22px;
+    background-color: black;
+}
+
+h2, h3, h4, h5 {
+    padding: 15px 0;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    min-width: 450px;
+    height: 4.3125rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+    background-color: black;
+}
+
+header img {
+    max-height: 3.125rem;
+}
+
+#logo {
+    margin-left: 10px;
+    margin-right: auto;
+    padding: 5px;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header a {
+    color: seashell;
+}
+
+/* Main */
+.site-main {
+    margin: 0 auto;
+    position: relative;
+    top: 4.3125rem;
+    max-width: 1200px;
+}
+
+.mission {
+    height: 700px;
+    background-image: url(../images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.mission .container {
+    background-color: black;
+}
+
+.tea-cards .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tea-cards .card {
+    width: 300px;
+    padding: 10px;
+}
+
+.tea-cards .card img {
+    height: 200px;
+    width: 300px;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.locations .container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.locations .container .card {
+    width: 300px;
+    background-color: black;
+    margin: 15px 20px;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer h5 {
+    text-align: left !important;
+    margin-left: 20px;
+}
